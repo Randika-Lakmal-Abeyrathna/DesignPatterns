@@ -11,7 +11,11 @@ package singletonPattarn;
  */
 public class SingletonDemo {
     
-    SingleObject singleObject = SingleObject.getInstance();
+    public static void main(String[] args) {
+            SingleObject singleObject = SingleObject.getInstance();
+
+            singleObject.getMessage();
+    }
 
     
 }
